@@ -1,0 +1,22 @@
+---
+- mystudents:
+  - name: abdur
+    phone: 90907454554
+    address: 
+         doorno: 101
+         street: 65
+         pincode: 989798
+
+  - name: rahman 
+    phone: 5489998980
+    address: 
+      doorno: 100
+      street: 66
+      pincode: 989798
+
+  - name: ansari
+    phone: 98987545498
+    address: 
+       doorno: 102
+       street: 67
+       pincode: 989798
