@@ -7,17 +7,17 @@
     apt:
       name: apache2
       state: present 
-      when: ansible_os_family=="debian"
+      when: ansible_os_family=="Debian"
   - name: in this task  , i want to start webserver on ubuntu
     service:
      name: apache2
      state: started
-     when: ansible_os_family=="debian"
+     when: ansible_os_family=="Debian"
   - name: in this task, i want to install httpd webserver on redhat
     dnf: 
        name: httpd
        state: present
-       when: ansible_os_family=="debian"
+       when: ansible_os_family=="Debian"
   - name: in this task  , i want to start webserver on redhat
     service:
      name: apache2
